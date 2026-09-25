@@ -56,11 +56,13 @@ size, fonts and colours of the navigation bar button */
     font-family: "Inter";
 }
 
+/* Adds an underline to the currently active page */
 .nav-bar-current {
     text-decoration: underline;
 }
 
-/* Changes the colour of the naviation bar buttons when hovered */
+/* Changes the colour and underline of the naviation bar
+buttons when hovered */
 .nav-bar-text:hover {
     background-color: rgb(50, 50, 50);
 
