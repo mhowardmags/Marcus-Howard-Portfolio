@@ -1,0 +1,64 @@
+.projects-title-specifics {
+    font-size: 75px;
+
+    margin-top: 22px;
+}
+
+/* General project code/positions */
+.project {
+    background-color: rgb(59, 59,59);
+
+    width: 85.3%;
+
+    padding-top: 15px;
+    padding-bottom: 38px;
+
+    margin-top: 44px;
+    margin-left: auto;
+    margin-right: auto;
+
+    border-radius: 18px;
+
+}
+
+/* General project content code/positions */
+.project-content {
+    justify-content: center;
+
+    display: flex;
+
+    width: fit-content;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project-content a {
+    width: 39.45%;
+}
+
+.project-image {
+    width: 100%; 
+
+    margin-top: 36px;
+
+    border-radius: 18px;
+}
+
+.project-text {
+    width: fit-content;
+
+    font-size: 22px;
+
+    margin-left: 26px;
+    margin-top: 30px;
+    margin-bottom: -8px;
+}
+
+.saving-sand-text {
+    margin-top: 58px;
+}
+
+.footer-space {
+    margin-bottom: 50px;
+}

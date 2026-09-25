@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+
+.font-homepage {
+    font-family: "Inter";
+}
+
+/* Sizes and positions of the homepage title */
+.homepage-title-specifics {
+    font-size: 70px;
+
+    margin-top: 110px;
+}
+
+.homepage-sub-title {
+    margin-top: -5px;
+}
+
+.homepage-images {
+    display: flex;
+    
+    margin-top: 44px;
+}
+
+.homepage-person {
+    margin-left: 25%;
+    margin-right: 6.25%;
+}
+
+.homepage-image-logo {
+    width: 28%;
+    height: fit-content;
+
+    margin-right: 25%;
+    margin-left: 6.25%;
+}
+
+.project-content {
+    display: flex;
+}
+
+.project-image {
+    border-radius: 18px;
+}

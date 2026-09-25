@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+
+body {
+    margin: 0px;
+
+    background-color: rgb(27, 27, 27);
+}
+
+a {
+    text-decoration: none;
+}
+
+.font-karla {
+    font-family: "Karla";
+    color: white;
+}
+
+.font-semibold {
+    font-weight: 600;
+}
+
+/* Main Navigation bar */
+.nav-bar {
+    display: flex;
+
+    background-color: rgba(255, 255, 255, 0.90);
+
+    height: 52px;
+
+    position: sticky;
+    top: 0;
+}
+
+/* Codes the specific position, 
+size, fonts and colours of the navigation bar button */
+.nav-bar-text {
+    margin-top: 12px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    padding-top: 6px;
+    padding-bottom: 6.5px;
+
+    border-radius: 4px;
+
+    width: 92px;
+    height: fit-content;
+
+    background-color: rgb(27, 27, 27);
+
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    font-family: "Inter";
+}
+
+.nav-bar-current {
+    text-decoration: underline;
+}
+
+/* Changes the colour of the naviation bar buttons when hovered */
+.nav-bar-text:hover {
+    background-color: rgb(50, 50, 50);
+
+    text-decoration: underline;
+
+    transition: 0.3s;
+}
+
+.title-text {
+    width: fit-content;
+
+    margin: auto;
+
+    color: white;
+}
+
+.sub-title {
+    width: fit-content;
+
+    margin: auto;
+
+    color: white;
+    font-size: 30px;
+}
+
+.person-image {
+    width: 18.5%;
+    height: fit-content;
+
+    border-radius: 18px;
+}
